@@ -1,0 +1,85 @@
+.img-hover-zoom {
+    height: 30rem;
+    width: 22rem;
+    overflow: hidden;
+  }
+
+.img-hover-zoom--blur img {
+    transition: transform 1s, filter 1s ease-in-out;
+    filter: blur(1px);
+    transform: scale(1.2);
+  }
+  
+
+  .img-hover-zoom--blur:hover img {
+    filter: blur(0);
+    transform: scale(1);
+  }
+
+  .img-hover-zoom--blur:hover .show {
+    display: block;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .container .content {
+    position: absolute; 
+    bottom: 40%; 
+    left: auto;
+    background: transparent; 
+    color: #000;
+  }
+  hr{
+    border: 1px solid rgb(6, 6, 6);
+  }
+
+ .ourCafeContainer{
+  position: relative;
+ }
+.ourCafeContainer .cafeContent{
+  position: absolute; 
+    top: 25%; 
+    /* left: 20%; */
+    margin:0 30%;
+    background: transparent; 
+    color: #000;
+} 
+
+.btnHover:hover{
+  border : 1px solid white;
+  color: white;
+}
+.readbtn:hover{
+  border : 1px solid black;
+color:#000;
+cursor:pointer;
+}
+
+.subscribeImage{
+  position: relative;
+}
+.subscribeImage .sub{
+  position: absolute; 
+  text-align: center;
+  top: 25%; 
+  left: 30%;
+  /* margin:auto; */
+  background: transparent; 
+  color: #fff;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family:  serif;
+}
+
+.subbtn:hover{
+  border : 1px solid rgb(250, 247, 247);
+  color:#fff;
+  cursor:pointer;
+  
+}
+
+.lhover:hover{
+  cursor: pointer;
+  color: #fff;
+}
